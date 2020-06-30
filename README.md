@@ -37,7 +37,7 @@ The dstack framework uses the following abstractions to represent artifacts:
 The workflow in this case is the following:
 
 - Install the `dstack` package (e.g. via `pip` or `conda`)
-- Runs `dstack-server` (e.g. using the `dstack server` dstack CLI command)
+- Run `dstack-server` (e.g. using the `dstack server` dstack CLI command)
 - Configure a dstack profile (e.g. using the `dstack config` dstack CLI command) 
 - Push or pull *Stack Frames* from Jupyter notebooks, Rmarkdown files or any Python or R scripts. Pushing and pulling is done via the `dstack` packages for Python or R. 
 
